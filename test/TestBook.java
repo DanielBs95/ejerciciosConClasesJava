@@ -11,7 +11,7 @@ public class TestBook {
         
         Book libro = new Book("223355666", "Corazón de Campeon", "Mr. Valera", 200);
         Book libro2 = new Book("332255666", "Corazón de León", "Mr. Jesus", 300);
-        
+        libro.setNpaginas(400);
         Book libroMayor;
         if (libro.getNpaginas()>libro2.getNpaginas()) {
             libroMayor = libro;
